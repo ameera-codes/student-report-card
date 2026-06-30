@@ -1,7 +1,6 @@
-
-student_name = input("Type your name: ")
-student_scores = [20,10,40,40]
-subjects = ["english","hindi", "science","maths"]
+student_name = "Amy"
+student_scores = [60,50,40,40,60]
+subjects = ["english", "hindi", "science", "maths", "social"]
 
 def get_grade(score):
     if score >= 50:
@@ -43,5 +42,8 @@ def print_report(name, subjects, scores):
         print("Good Job! Keep going.")
     else:
         print("keep learning.You can do it!")
-
+    if avg >= 40.00 :
+        print("PASS")
+    else:
+        print("FAILED. Must repeat.")
 print_report(student_name, subjects, student_scores)
