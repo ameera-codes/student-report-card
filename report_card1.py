@@ -1,3 +1,6 @@
+# lesson1 project: Student Report Card
+# This is done just by using variables, datatypes, list, if/else and functions.
+
 student_name = "Amy"
 student_scores = [60,50,40,40,60]
 subjects = ["english", "hindi", "science", "maths", "social"]
